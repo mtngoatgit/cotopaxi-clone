@@ -21769,6 +21769,8 @@
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
+	__webpack_require__(374);
+	
 	exports.default = _react2.default.createClass({
 	  displayName: 'Home',
 	  render: function render() {
@@ -21788,7 +21790,7 @@
 /* 183 */
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';
+	"use strict";
 	
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -21801,13 +21803,9 @@
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	exports.default = _react2.default.createClass({
-	  displayName: 'HeroImages',
+	  displayName: "HeroImages",
 	  render: function render() {
-	    return _react2.default.createElement(
-	      'div',
-	      null,
-	      'Hero Images'
-	    );
+	    return _react2.default.createElement("div", { className: "mobile-hero-image" });
 	  }
 	});
 
@@ -21923,7 +21921,7 @@
 /* 188 */
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';
+	"use strict";
 	
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -21936,12 +21934,57 @@
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	exports.default = _react2.default.createClass({
-	  displayName: 'Header',
+	  displayName: "Header",
 	  render: function render() {
 	    return _react2.default.createElement(
-	      'div',
+	      "div",
 	      null,
-	      'Header'
+	      _react2.default.createElement(
+	        "div",
+	        { className: "header-container" },
+	        _react2.default.createElement(
+	          "div",
+	          { className: "header-top" },
+	          _react2.default.createElement(
+	            "div",
+	            { className: "mobile-header-nav" },
+	            _react2.default.createElement("i", { className: "fa fa-bars", "aria-hidden": "true" })
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "header-logo" },
+	            _react2.default.createElement("img", { style: { width: "100%" }, src: "../../public/assets/images/logo.png", alt: "cotopaxi" })
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "header-cart-container" },
+	            _react2.default.createElement(
+	              "div",
+	              { className: "header-help" },
+	              _react2.default.createElement("img", { style: { width: "100%" }, src: "../../public/assets/images/nav_help.png", alt: "help" })
+	            ),
+	            _react2.default.createElement(
+	              "div",
+	              { className: "header-cart" },
+	              _react2.default.createElement("img", { style: { width: "100%" }, src: "../../public/assets/images/nav_cart.png", alt: "cart" })
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "header-bottom" },
+	          _react2.default.createElement(
+	            "div",
+	            { className: "header-free-shipping" },
+	            "Free Shipping on Orders Over $50+"
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "header-spend-hundred" },
+	            "Spend $100, get a free Do Good T-Shirt."
+	          )
+	        )
+	      )
 	    );
 	  }
 	});
@@ -22008,7 +22051,7 @@
 	
 	
 	// module
-	exports.push([module.id, "", ""]);
+	exports.push([module.id, ".header-top {\n  position: fixed;\n  top: 0;\n  width: 100%;\n  background-color: white;\n  display: flex;\n  justify-content: space-between; }\n  .header-top .mobile-header-nav {\n    width: 50px;\n    padding: 15px 0 0 20px; }\n  .header-top .header-logo {\n    width: 30vw;\n    padding-top: 5px; }\n  .header-top .header-cart-container {\n    width: 30vw;\n    padding: 15px 20px 15px 0;\n    display: flex;\n    flex-direction: row;\n    justify-content: space-between; }\n    .header-top .header-cart-container .header-help {\n      width: 60%; }\n    .header-top .header-cart-container .header-cart {\n      width: 34%; }\n\n.header-bottom {\n  padding-top: 58px;\n  background-color: #eeeeee;\n  text-align: center; }\n  .header-bottom .header-free-shipping {\n    margin: 7px 0;\n    line-height: 20px;\n    font-family: \"Roboto Condensed\", sans-serif;\n    font-size: 0.75em;\n    color: #bcbcbc;\n    font-style: italic; }\n  .header-bottom .header-spend-hundred {\n    line-height: 20px;\n    padding: 7px 0;\n    font-size: 0.875em;\n    font-family: \"Roboto Condensed\", sans-serif;\n    font-weight: 300;\n    color: #4fc3f7; }\n    .header-bottom .header-spend-hundred :hover {\n      color: #febe37; }\n", ""]);
 	
 	// exports
 
@@ -22319,6 +22362,226 @@
 		if(oldSrc)
 			URL.revokeObjectURL(oldSrc);
 	}
+
+
+/***/ },
+/* 194 */,
+/* 195 */,
+/* 196 */,
+/* 197 */,
+/* 198 */,
+/* 199 */,
+/* 200 */,
+/* 201 */,
+/* 202 */,
+/* 203 */,
+/* 204 */,
+/* 205 */,
+/* 206 */,
+/* 207 */,
+/* 208 */,
+/* 209 */,
+/* 210 */,
+/* 211 */,
+/* 212 */,
+/* 213 */,
+/* 214 */,
+/* 215 */,
+/* 216 */,
+/* 217 */,
+/* 218 */,
+/* 219 */,
+/* 220 */,
+/* 221 */,
+/* 222 */,
+/* 223 */,
+/* 224 */,
+/* 225 */,
+/* 226 */,
+/* 227 */,
+/* 228 */,
+/* 229 */,
+/* 230 */,
+/* 231 */,
+/* 232 */,
+/* 233 */,
+/* 234 */,
+/* 235 */,
+/* 236 */,
+/* 237 */,
+/* 238 */,
+/* 239 */,
+/* 240 */,
+/* 241 */,
+/* 242 */,
+/* 243 */,
+/* 244 */,
+/* 245 */,
+/* 246 */,
+/* 247 */,
+/* 248 */,
+/* 249 */,
+/* 250 */,
+/* 251 */,
+/* 252 */,
+/* 253 */,
+/* 254 */,
+/* 255 */,
+/* 256 */,
+/* 257 */,
+/* 258 */,
+/* 259 */,
+/* 260 */,
+/* 261 */,
+/* 262 */,
+/* 263 */,
+/* 264 */,
+/* 265 */,
+/* 266 */,
+/* 267 */,
+/* 268 */,
+/* 269 */,
+/* 270 */,
+/* 271 */,
+/* 272 */,
+/* 273 */,
+/* 274 */,
+/* 275 */,
+/* 276 */,
+/* 277 */,
+/* 278 */,
+/* 279 */,
+/* 280 */,
+/* 281 */,
+/* 282 */,
+/* 283 */,
+/* 284 */,
+/* 285 */,
+/* 286 */,
+/* 287 */,
+/* 288 */,
+/* 289 */,
+/* 290 */,
+/* 291 */,
+/* 292 */,
+/* 293 */,
+/* 294 */,
+/* 295 */,
+/* 296 */,
+/* 297 */,
+/* 298 */,
+/* 299 */,
+/* 300 */,
+/* 301 */,
+/* 302 */,
+/* 303 */,
+/* 304 */,
+/* 305 */,
+/* 306 */,
+/* 307 */,
+/* 308 */,
+/* 309 */,
+/* 310 */,
+/* 311 */,
+/* 312 */,
+/* 313 */,
+/* 314 */,
+/* 315 */,
+/* 316 */,
+/* 317 */,
+/* 318 */,
+/* 319 */,
+/* 320 */,
+/* 321 */,
+/* 322 */,
+/* 323 */,
+/* 324 */,
+/* 325 */,
+/* 326 */,
+/* 327 */,
+/* 328 */,
+/* 329 */,
+/* 330 */,
+/* 331 */,
+/* 332 */,
+/* 333 */,
+/* 334 */,
+/* 335 */,
+/* 336 */,
+/* 337 */,
+/* 338 */,
+/* 339 */,
+/* 340 */,
+/* 341 */,
+/* 342 */,
+/* 343 */,
+/* 344 */,
+/* 345 */,
+/* 346 */,
+/* 347 */,
+/* 348 */,
+/* 349 */,
+/* 350 */,
+/* 351 */,
+/* 352 */,
+/* 353 */,
+/* 354 */,
+/* 355 */,
+/* 356 */,
+/* 357 */,
+/* 358 */,
+/* 359 */,
+/* 360 */,
+/* 361 */,
+/* 362 */,
+/* 363 */,
+/* 364 */,
+/* 365 */,
+/* 366 */,
+/* 367 */,
+/* 368 */,
+/* 369 */,
+/* 370 */,
+/* 371 */,
+/* 372 */,
+/* 373 */,
+/* 374 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+	
+	// load the styles
+	var content = __webpack_require__(375);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(193)(content, {});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(false) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept("!!./../../node_modules/css-loader/index.js!./../../node_modules/sass-loader/index.js!./home.component.scss", function() {
+				var newContent = require("!!./../../node_modules/css-loader/index.js!./../../node_modules/sass-loader/index.js!./home.component.scss");
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 375 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(192)();
+	// imports
+	
+	
+	// module
+	exports.push([module.id, ".mobile-hero-image {\n  width: 100vw;\n  background-image: url(" + __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"../../public/assets/images/home_page_slideshow_1_mobile.jpg\""); e.code = 'MODULE_NOT_FOUND'; throw e; }())) + ");\n  background-size: cover;\n  background-repeat: none; }\n", ""]);
+	
+	// exports
 
 
 /***/ }
