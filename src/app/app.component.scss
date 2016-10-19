@@ -1,0 +1,57 @@
+$gotham: 'Montserrat', sans-serif;
+$darwin: 'Roboto', sans-serif;
+$darwinThin: 'Roboto Condensed', sans-serif;
+
+.header-top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  .mobile-header-nav {
+    width: 50px;
+    padding: 15px 0 0 20px;
+  }
+  .header-logo {
+    width: 30vw;
+    padding-top: 5px;
+  }
+  .header-cart-container {
+    width: 30vw;
+    padding: 15px 20px 15px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .header-help {
+      width: 60%;
+    }
+    .header-cart {
+      width: 34%;
+    }
+  }
+}
+.header-bottom {
+  padding-top: 58px;
+  background-color: rgb(238, 238, 238);
+  text-align: center;
+  .header-free-shipping {
+    margin: 7px 0;
+    line-height: 20px;
+    font-family: $darwinThin;
+    font-size: 0.75em;
+    color: rgb(188, 188, 188);
+    font-style: italic;
+  }
+  .header-spend-hundred {
+    line-height: 20px;
+    padding: 7px 0;
+    font-size: 0.875em;
+    font-family: $darwinThin;
+    font-weight: 300;
+    color: rgb(79, 195, 247);
+    :hover{
+      color: rgb(254, 190, 55);
+    }
+  }
+}

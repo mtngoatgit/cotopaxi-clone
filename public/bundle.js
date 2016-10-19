@@ -58,17 +58,17 @@
 	
 	var _Home2 = _interopRequireDefault(_Home);
 	
-	var _Header = __webpack_require__(188);
+	var _Header = __webpack_require__(193);
 	
 	var _Header2 = _interopRequireDefault(_Header);
 	
-	var _Footer = __webpack_require__(189);
+	var _Footer = __webpack_require__(194);
 	
 	var _Footer2 = _interopRequireDefault(_Footer);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
-	__webpack_require__(190);
+	__webpack_require__(195);
 	
 	var App = _react2.default.createClass({
 		displayName: 'App',
@@ -21751,25 +21751,29 @@
 	
 	var _HeroImages2 = _interopRequireDefault(_HeroImages);
 	
-	var _TopPicks = __webpack_require__(184);
+	var _TopPicks = __webpack_require__(189);
 	
 	var _TopPicks2 = _interopRequireDefault(_TopPicks);
 	
-	var _LuzonDelDia = __webpack_require__(185);
+	var _LuzonDelDia = __webpack_require__(190);
 	
 	var _LuzonDelDia2 = _interopRequireDefault(_LuzonDelDia);
 	
-	var _WhoWeAre = __webpack_require__(186);
+	var _WhoWeAre = __webpack_require__(191);
 	
 	var _WhoWeAre2 = _interopRequireDefault(_WhoWeAre);
 	
-	var _Aventuras = __webpack_require__(187);
+	var _Aventuras = __webpack_require__(192);
 	
 	var _Aventuras2 = _interopRequireDefault(_Aventuras);
 	
+	var _Get = __webpack_require__(197);
+	
+	var _Get2 = _interopRequireDefault(_Get);
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
-	__webpack_require__(374);
+	__webpack_require__(184);
 	
 	exports.default = _react2.default.createClass({
 	  displayName: 'Home',
@@ -21781,7 +21785,8 @@
 	      _react2.default.createElement(_TopPicks2.default, null),
 	      _react2.default.createElement(_LuzonDelDia2.default, null),
 	      _react2.default.createElement(_WhoWeAre2.default, null),
-	      _react2.default.createElement(_Aventuras2.default, null)
+	      _react2.default.createElement(_Aventuras2.default, null),
+	      _react2.default.createElement(_Get2.default, null)
 	    );
 	  }
 	});
@@ -21790,29 +21795,6 @@
 /* 183 */
 /***/ function(module, exports, __webpack_require__) {
 
-	"use strict";
-	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	
-	var _react = __webpack_require__(1);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	exports.default = _react2.default.createClass({
-	  displayName: "HeroImages",
-	  render: function render() {
-	    return _react2.default.createElement("div", { className: "mobile-hero-image" });
-	  }
-	});
-
-/***/ },
-/* 184 */
-/***/ function(module, exports, __webpack_require__) {
-
 	'use strict';
 	
 	Object.defineProperty(exports, "__esModule", {
@@ -21825,163 +21807,52 @@
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
+	__webpack_require__(184);
+	
 	exports.default = _react2.default.createClass({
-	  displayName: 'TopPicks',
+	  displayName: 'HeroImages',
 	  render: function render() {
 	    return _react2.default.createElement(
 	      'div',
-	      null,
-	      'Top Picks'
-	    );
-	  }
-	});
-
-/***/ },
-/* 185 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	
-	var _react = __webpack_require__(1);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	exports.default = _react2.default.createClass({
-	  displayName: 'LuzonDelDia',
-	  render: function render() {
-	    return _react2.default.createElement(
-	      'div',
-	      null,
-	      'Luzon Del Dia'
-	    );
-	  }
-	});
-
-/***/ },
-/* 186 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	
-	var _react = __webpack_require__(1);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	exports.default = _react2.default.createClass({
-	  displayName: 'WhoWeAre',
-	  render: function render() {
-	    return _react2.default.createElement(
-	      'div',
-	      null,
-	      'Who WE are'
-	    );
-	  }
-	});
-
-/***/ },
-/* 187 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	
-	var _react = __webpack_require__(1);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	exports.default = _react2.default.createClass({
-	  displayName: 'Aventuras',
-	  render: function render() {
-	    return _react2.default.createElement(
-	      'div',
-	      null,
-	      'Aventuras'
-	    );
-	  }
-	});
-
-/***/ },
-/* 188 */
-/***/ function(module, exports, __webpack_require__) {
-
-	"use strict";
-	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	
-	var _react = __webpack_require__(1);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	exports.default = _react2.default.createClass({
-	  displayName: "Header",
-	  render: function render() {
-	    return _react2.default.createElement(
-	      "div",
-	      null,
+	      { className: 'b' },
 	      _react2.default.createElement(
-	        "div",
-	        { className: "header-container" },
+	        'div',
+	        { className: 'hero-parent' },
 	        _react2.default.createElement(
-	          "div",
-	          { className: "header-top" },
+	          'div',
+	          { className: 'mobile-hero-image' },
 	          _react2.default.createElement(
-	            "div",
-	            { className: "mobile-header-nav" },
-	            _react2.default.createElement("i", { className: "fa fa-bars", "aria-hidden": "true" })
+	            'div',
+	            { className: 'slide-one-title' },
+	            'DO GOOD'
 	          ),
 	          _react2.default.createElement(
-	            "div",
-	            { className: "header-logo" },
-	            _react2.default.createElement("img", { style: { width: "100%" }, src: "../../public/assets/images/logo.png", alt: "cotopaxi" })
+	            'div',
+	            { className: 'slide-one-subtitle' },
+	            'Spend $100, get a DO GOOD Tee.'
 	          ),
 	          _react2.default.createElement(
-	            "div",
-	            { className: "header-cart-container" },
+	            'div',
+	            { className: 'slide-one-text' },
 	            _react2.default.createElement(
-	              "div",
-	              { className: "header-help" },
-	              _react2.default.createElement("img", { style: { width: "100%" }, src: "../../public/assets/images/nav_help.png", alt: "help" })
+	              'span',
+	              { style: { width: "100%" } },
+	              'Limited time offer. Cannot be combined with'
 	            ),
 	            _react2.default.createElement(
-	              "div",
-	              { className: "header-cart" },
-	              _react2.default.createElement("img", { style: { width: "100%" }, src: "../../public/assets/images/nav_cart.png", alt: "cart" })
+	              'span',
+	              { style: { width: "100%" } },
+	              'other offers. Excludes events.'
 	            )
-	          )
-	        ),
-	        _react2.default.createElement(
-	          "div",
-	          { className: "header-bottom" },
-	          _react2.default.createElement(
-	            "div",
-	            { className: "header-free-shipping" },
-	            "Free Shipping on Orders Over $50+"
 	          ),
 	          _react2.default.createElement(
-	            "div",
-	            { className: "header-spend-hundred" },
-	            "Spend $100, get a free Do Good T-Shirt."
+	            'div',
+	            { className: 'slide-one-shop_now' },
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'slide-one-shop_now-inner' },
+	              'Shop Now'
+	            )
 	          )
 	        )
 	      )
@@ -21990,50 +21861,23 @@
 	});
 
 /***/ },
-/* 189 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	
-	var _react = __webpack_require__(1);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	exports.default = _react2.default.createClass({
-	  displayName: 'Footer',
-	  render: function render() {
-	    return _react2.default.createElement(
-	      'div',
-	      null,
-	      'Footer'
-	    );
-	  }
-	});
-
-/***/ },
-/* 190 */
+/* 184 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(191);
+	var content = __webpack_require__(185);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
-	var update = __webpack_require__(193)(content, {});
+	var update = __webpack_require__(188)(content, {});
 	if(content.locals) module.exports = content.locals;
 	// Hot Module Replacement
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../node_modules/css-loader/index.js!./../../node_modules/sass-loader/index.js!./app.component.scss", function() {
-				var newContent = require("!!./../../node_modules/css-loader/index.js!./../../node_modules/sass-loader/index.js!./app.component.scss");
+			module.hot.accept("!!./../../node_modules/css-loader/index.js!./../../node_modules/sass-loader/index.js!./home.component.scss", function() {
+				var newContent = require("!!./../../node_modules/css-loader/index.js!./../../node_modules/sass-loader/index.js!./home.component.scss");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -22043,21 +21887,21 @@
 	}
 
 /***/ },
-/* 191 */
+/* 185 */
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(192)();
+	exports = module.exports = __webpack_require__(186)();
 	// imports
 	
 	
 	// module
-	exports.push([module.id, ".header-top {\n  position: fixed;\n  top: 0;\n  width: 100%;\n  background-color: white;\n  display: flex;\n  justify-content: space-between; }\n  .header-top .mobile-header-nav {\n    width: 50px;\n    padding: 15px 0 0 20px; }\n  .header-top .header-logo {\n    width: 30vw;\n    padding-top: 5px; }\n  .header-top .header-cart-container {\n    width: 30vw;\n    padding: 15px 20px 15px 0;\n    display: flex;\n    flex-direction: row;\n    justify-content: space-between; }\n    .header-top .header-cart-container .header-help {\n      width: 60%; }\n    .header-top .header-cart-container .header-cart {\n      width: 34%; }\n\n.header-bottom {\n  padding-top: 58px;\n  background-color: #eeeeee;\n  text-align: center; }\n  .header-bottom .header-free-shipping {\n    margin: 7px 0;\n    line-height: 20px;\n    font-family: \"Roboto Condensed\", sans-serif;\n    font-size: 0.75em;\n    color: #bcbcbc;\n    font-style: italic; }\n  .header-bottom .header-spend-hundred {\n    line-height: 20px;\n    padding: 7px 0;\n    font-size: 0.875em;\n    font-family: \"Roboto Condensed\", sans-serif;\n    font-weight: 300;\n    color: #4fc3f7; }\n    .header-bottom .header-spend-hundred :hover {\n      color: #febe37; }\n", ""]);
+	exports.push([module.id, ".b {\n  overflow: hidden;\n  width: 100%;\n  height: 85vh;\n  background-image: url(" + __webpack_require__(187) + ");\n  background-size: cover;\n  background-position: center;\n  color: white;\n  font-family: \"Montserrat\", sans-serif;\n  display: table;\n  clear: both; }\n\n.hero-parent {\n  display: table-cell;\n  vertical-align: middle; }\n\n.mobile-hero-image {\n  padding: 5%; }\n\n.slide-one-title {\n  font-size: 2.5em;\n  line-height: 1;\n  letter-spacing: 2.4px;\n  text-align: center; }\n\n.slide-one-subtitle {\n  font-size: 1.5em;\n  font-weight: 300;\n  line-height: 1.2;\n  text-align: center;\n  font-family: \"Raleway\", sans-serif;\n  font-weight: 100; }\n\n.slide-one-text {\n  font-size: 16px;\n  line-height: 1.6;\n  letter-spacing: 1px;\n  margin: 0 0 15px 0;\n  text-align: center;\n  font-family: \"Raleway\", sans-serif;\n  font-weight: 100;\n  display: flex;\n  flex-direction: column; }\n\n.slide-one-shop_now {\n  width: 100%;\n  margin-top: 60px;\n  padding-bottom: 40px;\n  display: flex;\n  justify-content: center; }\n\n.slide-one-shop_now-inner {\n  font-size: 0.75em;\n  padding-bottom: 7px;\n  width: 70px;\n  border-bottom: 1px solid white; }\n\n.get-20-container {\n  position: fixed;\n  bottom: 5px;\n  left: 5px;\n  background-color: #3f414c;\n  width: 100px;\n  font-size: 20px;\n  font-family: \"Raleway\", sans-serif;\n  font-weight: 500;\n  color: white;\n  padding: 9px; }\n", ""]);
 	
 	// exports
 
 
 /***/ },
-/* 192 */
+/* 186 */
 /***/ function(module, exports) {
 
 	/*
@@ -22113,7 +21957,13 @@
 
 
 /***/ },
-/* 193 */
+/* 187 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "a38a2e7208e53a3d27814cec7a791298.jpg";
+
+/***/ },
+/* 188 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*
@@ -22365,203 +22215,230 @@
 
 
 /***/ },
-/* 194 */,
-/* 195 */,
-/* 196 */,
-/* 197 */,
-/* 198 */,
-/* 199 */,
-/* 200 */,
-/* 201 */,
-/* 202 */,
-/* 203 */,
-/* 204 */,
-/* 205 */,
-/* 206 */,
-/* 207 */,
-/* 208 */,
-/* 209 */,
-/* 210 */,
-/* 211 */,
-/* 212 */,
-/* 213 */,
-/* 214 */,
-/* 215 */,
-/* 216 */,
-/* 217 */,
-/* 218 */,
-/* 219 */,
-/* 220 */,
-/* 221 */,
-/* 222 */,
-/* 223 */,
-/* 224 */,
-/* 225 */,
-/* 226 */,
-/* 227 */,
-/* 228 */,
-/* 229 */,
-/* 230 */,
-/* 231 */,
-/* 232 */,
-/* 233 */,
-/* 234 */,
-/* 235 */,
-/* 236 */,
-/* 237 */,
-/* 238 */,
-/* 239 */,
-/* 240 */,
-/* 241 */,
-/* 242 */,
-/* 243 */,
-/* 244 */,
-/* 245 */,
-/* 246 */,
-/* 247 */,
-/* 248 */,
-/* 249 */,
-/* 250 */,
-/* 251 */,
-/* 252 */,
-/* 253 */,
-/* 254 */,
-/* 255 */,
-/* 256 */,
-/* 257 */,
-/* 258 */,
-/* 259 */,
-/* 260 */,
-/* 261 */,
-/* 262 */,
-/* 263 */,
-/* 264 */,
-/* 265 */,
-/* 266 */,
-/* 267 */,
-/* 268 */,
-/* 269 */,
-/* 270 */,
-/* 271 */,
-/* 272 */,
-/* 273 */,
-/* 274 */,
-/* 275 */,
-/* 276 */,
-/* 277 */,
-/* 278 */,
-/* 279 */,
-/* 280 */,
-/* 281 */,
-/* 282 */,
-/* 283 */,
-/* 284 */,
-/* 285 */,
-/* 286 */,
-/* 287 */,
-/* 288 */,
-/* 289 */,
-/* 290 */,
-/* 291 */,
-/* 292 */,
-/* 293 */,
-/* 294 */,
-/* 295 */,
-/* 296 */,
-/* 297 */,
-/* 298 */,
-/* 299 */,
-/* 300 */,
-/* 301 */,
-/* 302 */,
-/* 303 */,
-/* 304 */,
-/* 305 */,
-/* 306 */,
-/* 307 */,
-/* 308 */,
-/* 309 */,
-/* 310 */,
-/* 311 */,
-/* 312 */,
-/* 313 */,
-/* 314 */,
-/* 315 */,
-/* 316 */,
-/* 317 */,
-/* 318 */,
-/* 319 */,
-/* 320 */,
-/* 321 */,
-/* 322 */,
-/* 323 */,
-/* 324 */,
-/* 325 */,
-/* 326 */,
-/* 327 */,
-/* 328 */,
-/* 329 */,
-/* 330 */,
-/* 331 */,
-/* 332 */,
-/* 333 */,
-/* 334 */,
-/* 335 */,
-/* 336 */,
-/* 337 */,
-/* 338 */,
-/* 339 */,
-/* 340 */,
-/* 341 */,
-/* 342 */,
-/* 343 */,
-/* 344 */,
-/* 345 */,
-/* 346 */,
-/* 347 */,
-/* 348 */,
-/* 349 */,
-/* 350 */,
-/* 351 */,
-/* 352 */,
-/* 353 */,
-/* 354 */,
-/* 355 */,
-/* 356 */,
-/* 357 */,
-/* 358 */,
-/* 359 */,
-/* 360 */,
-/* 361 */,
-/* 362 */,
-/* 363 */,
-/* 364 */,
-/* 365 */,
-/* 366 */,
-/* 367 */,
-/* 368 */,
-/* 369 */,
-/* 370 */,
-/* 371 */,
-/* 372 */,
-/* 373 */,
-/* 374 */
+/* 189 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _react = __webpack_require__(1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	exports.default = _react2.default.createClass({
+	  displayName: 'TopPicks',
+	  render: function render() {
+	    return _react2.default.createElement(
+	      'div',
+	      null,
+	      'Top Picks'
+	    );
+	  }
+	});
+
+/***/ },
+/* 190 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _react = __webpack_require__(1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	exports.default = _react2.default.createClass({
+	  displayName: 'LuzonDelDia',
+	  render: function render() {
+	    return _react2.default.createElement(
+	      'div',
+	      null,
+	      'Luzon Del Dia'
+	    );
+	  }
+	});
+
+/***/ },
+/* 191 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _react = __webpack_require__(1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	exports.default = _react2.default.createClass({
+	  displayName: 'WhoWeAre',
+	  render: function render() {
+	    return _react2.default.createElement(
+	      'div',
+	      null,
+	      'Who WE are'
+	    );
+	  }
+	});
+
+/***/ },
+/* 192 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _react = __webpack_require__(1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	exports.default = _react2.default.createClass({
+	  displayName: 'Aventuras',
+	  render: function render() {
+	    return _react2.default.createElement(
+	      'div',
+	      null,
+	      'Aventuras'
+	    );
+	  }
+	});
+
+/***/ },
+/* 193 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _react = __webpack_require__(1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	exports.default = _react2.default.createClass({
+	  displayName: "Header",
+	  render: function render() {
+	    return _react2.default.createElement(
+	      "div",
+	      null,
+	      _react2.default.createElement(
+	        "div",
+	        { className: "header-container" },
+	        _react2.default.createElement(
+	          "div",
+	          { className: "header-top" },
+	          _react2.default.createElement(
+	            "div",
+	            { className: "mobile-header-nav" },
+	            _react2.default.createElement("i", { className: "fa fa-bars", "aria-hidden": "true" })
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "header-logo" },
+	            _react2.default.createElement("img", { style: { width: "100%" }, src: "../../public/assets/images/logo.png", alt: "cotopaxi" })
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "header-cart-container" },
+	            _react2.default.createElement(
+	              "div",
+	              { className: "header-help" },
+	              _react2.default.createElement("img", { style: { width: "100%" }, src: "../../public/assets/images/nav_help.png", alt: "help" })
+	            ),
+	            _react2.default.createElement(
+	              "div",
+	              { className: "header-cart" },
+	              _react2.default.createElement("img", { style: { width: "100%" }, src: "../../public/assets/images/nav_cart.png", alt: "cart" })
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "header-bottom" },
+	          _react2.default.createElement(
+	            "div",
+	            { className: "header-free-shipping" },
+	            "Free Shipping on Orders Over $50+"
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "header-spend-hundred" },
+	            "Spend $100, get a free Do Good T-Shirt."
+	          )
+	        )
+	      )
+	    );
+	  }
+	});
+
+/***/ },
+/* 194 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _react = __webpack_require__(1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	exports.default = _react2.default.createClass({
+	  displayName: 'Footer',
+	  render: function render() {
+	    return _react2.default.createElement(
+	      'div',
+	      null,
+	      'Footer'
+	    );
+	  }
+	});
+
+/***/ },
+/* 195 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(375);
+	var content = __webpack_require__(196);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
-	var update = __webpack_require__(193)(content, {});
+	var update = __webpack_require__(188)(content, {});
 	if(content.locals) module.exports = content.locals;
 	// Hot Module Replacement
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../node_modules/css-loader/index.js!./../../node_modules/sass-loader/index.js!./home.component.scss", function() {
-				var newContent = require("!!./../../node_modules/css-loader/index.js!./../../node_modules/sass-loader/index.js!./home.component.scss");
+			module.hot.accept("!!./../../node_modules/css-loader/index.js!./../../node_modules/sass-loader/index.js!./app.component.scss", function() {
+				var newContent = require("!!./../../node_modules/css-loader/index.js!./../../node_modules/sass-loader/index.js!./app.component.scss");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -22571,18 +22448,49 @@
 	}
 
 /***/ },
-/* 375 */
+/* 196 */
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(192)();
+	exports = module.exports = __webpack_require__(186)();
 	// imports
 	
 	
 	// module
-	exports.push([module.id, ".mobile-hero-image {\n  width: 100vw;\n  background-image: url(" + __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"../../public/assets/images/home_page_slideshow_1_mobile.jpg\""); e.code = 'MODULE_NOT_FOUND'; throw e; }())) + ");\n  background-size: cover;\n  background-repeat: none; }\n", ""]);
+	exports.push([module.id, ".header-top {\n  position: fixed;\n  top: 0;\n  width: 100%;\n  background-color: white;\n  display: flex;\n  justify-content: space-between; }\n  .header-top .mobile-header-nav {\n    width: 50px;\n    padding: 15px 0 0 20px; }\n  .header-top .header-logo {\n    width: 30vw;\n    padding-top: 5px; }\n  .header-top .header-cart-container {\n    width: 30vw;\n    padding: 15px 20px 15px 0;\n    display: flex;\n    flex-direction: row;\n    justify-content: space-between; }\n    .header-top .header-cart-container .header-help {\n      width: 60%; }\n    .header-top .header-cart-container .header-cart {\n      width: 34%; }\n\n.header-bottom {\n  padding-top: 58px;\n  background-color: #eeeeee;\n  text-align: center; }\n  .header-bottom .header-free-shipping {\n    margin: 7px 0;\n    line-height: 20px;\n    font-family: \"Roboto Condensed\", sans-serif;\n    font-size: 0.75em;\n    color: #bcbcbc;\n    font-style: italic; }\n  .header-bottom .header-spend-hundred {\n    line-height: 20px;\n    padding: 7px 0;\n    font-size: 0.875em;\n    font-family: \"Roboto Condensed\", sans-serif;\n    font-weight: 300;\n    color: #4fc3f7; }\n    .header-bottom .header-spend-hundred :hover {\n      color: #febe37; }\n", ""]);
 	
 	// exports
 
+
+/***/ },
+/* 197 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _react = __webpack_require__(1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	exports.default = _react2.default.createClass({
+	  displayName: "Get20",
+	  render: function render() {
+	    return _react2.default.createElement(
+	      "div",
+	      null,
+	      _react2.default.createElement(
+	        "div",
+	        { className: "get-20-container" },
+	        "GET $20"
+	      )
+	    );
+	  }
+	});
 
 /***/ }
 /******/ ]);
