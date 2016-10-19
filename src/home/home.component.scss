@@ -66,13 +66,19 @@ $rale: 'Raleway', sans-serif;
 }
 .get-20-container {
   position: fixed;
-  bottom: 5px;
-  left: 5px;
+  bottom: 7px;
+  left: 7px;
   background-color: #3f414c;
-  width: 100px;
-  font-size: 20px;
-  font-family: $rale;
-  font-weight: 500;
+  font-size: 18px;
+  font-family: $open;
+  font-weight: 600;
   color: white;
-  padding: 9px;
+  padding: 13px 25px;
+}
+
+@media (min-width: 480px){
+
+}
+@media (min-width: 769px){
+  
 }

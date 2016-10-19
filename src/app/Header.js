@@ -1,18 +1,22 @@
 import React from 'react';
+import Navbar from './Navbar';
+require('./app.component.scss');
 
 
 export default React.createClass({
 render(){
     return (
       <div>
+      <Navbar />
         <div className="header-container">
           <div className="header-top">
             {/* <div className="desktop-header-nav">
 
             </div> */}
-            <div className="mobile-header-nav">
+            {/* <div className="mobile-header-nav">
               <i className="fa fa-bars" aria-hidden="true"></i>
-            </div>
+            </div> */}
+
             <div className="header-logo">
               <img style={{width: "100%"}}src="../../public/assets/images/logo.png" alt="cotopaxi" />
             </div>
