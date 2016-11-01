@@ -28,13 +28,14 @@ var styles = {
   bmMenu: {
     background: '#666',
     textTransform: "capitalize",
+    zIndex: '9'
   },
   bmMorphShape: {
     fill: '#373a47'
   },
   bmItemList: {
     color: '#b8b7ad',
-    padding: '0.8em'
+    padding: '0.8em',
   },
   bmOverlay: {
     background: 'rgba(0, 0, 0, 0.3)'
@@ -56,7 +57,7 @@ class Navbar extends React.Component {
           <RadiumLink className="menu-item" to="/host">Become a Host</RadiumLink>
           <a id="contact" className="menu-item" href="/signup">Sign Up</a>
           <a id="login" className="menu-item" href="/auth/facebook">Login</a> */}
-          <div className="menu-parent">
+          <div className="menu-parent" style={{zIndex: '9'}}>
           <div className="menu-search-box">
             <input type="text"
             placeholder="🔍 What are you looking for?"

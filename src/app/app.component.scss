@@ -15,13 +15,13 @@ $darwinThin: 'Roboto Condensed', sans-serif;
   }
   .header-logo {
     width: 30vw;
-    position: absolute;
+    position: fixed;
     top: 5px;
     right: 40vw;
   }
   .header-cart-container {
     width: 30vw;
-    position: absolute;
+    position: fixed;
     right: 0;
     padding: 15px 20px 9px 0;
     display: flex;
@@ -38,6 +38,7 @@ $darwinThin: 'Roboto Condensed', sans-serif;
 .header-bottom {
   background-color: rgb(238, 238, 238);
   text-align: center;
+  margin-top: 60px;
   .header-free-shipping {
     padding: 7px 0;
     line-height: 20px;

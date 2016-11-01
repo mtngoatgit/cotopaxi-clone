@@ -7,9 +7,10 @@ export default React.createClass({
 render(){
     return (
       <div>
-      <Navbar />
+
         <div className="header-container">
           <div className="header-top">
+          <Navbar />
             {/* <div className="desktop-header-nav">
 
             </div> */}
@@ -36,9 +37,9 @@ render(){
             <div className="header-free-shipping">
               Free Shipping on Orders Over $50+
             </div>
-            <div className="header-spend-hundred">
+            {/* <div className="header-spend-hundred">
               Spend $100, get a free Do Good T-Shirt.
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

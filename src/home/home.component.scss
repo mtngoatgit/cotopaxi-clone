@@ -3,7 +3,7 @@ $robot: 'Roboto', sans-serif;
 $robotThin: 'Roboto Condensed', sans-serif;
 $open: 'Open Sans', sans-serif;
 $rale: 'Raleway', sans-serif;
-.b {
+.hero-container {
   overflow: hidden;
   width: 100%;
   height: 85vh;
@@ -14,8 +14,11 @@ $rale: 'Raleway', sans-serif;
   font-family: $mont;
   display: table;
   clear: both;
+  position: relative;
+  z-index: 0;
 }
 .hero-parent {
+  width: 100%;
   display: table-cell;
   vertical-align: middle;
   // -webkit-box-align: center;
@@ -64,6 +67,13 @@ $rale: 'Raleway', sans-serif;
   width: 70px;
   border-bottom: 1px solid white;
 }
+.hero-down_arrow {
+  width: 100%;
+  position: absolute;
+  bottom: 25px;
+  display: flex;
+  justify-content: center;
+}
 .get-20-container {
   position: fixed;
   bottom: 7px;
@@ -74,11 +84,12 @@ $rale: 'Raleway', sans-serif;
   font-weight: 600;
   color: white;
   padding: 13px 25px;
+  z-index: 0;
 }
 
 @media (min-width: 480px){
 
 }
 @media (min-width: 769px){
-  
+
 }

@@ -1,10 +1,12 @@
 import React from 'react';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import Arrow from 'material-ui/svg-icons/hardware/keyboard-arrow-down';
 require ('./home.component.scss');
 
 export default React.createClass({
   render(){
     return(
-      <div className="b">
+      <div className="hero-container">
       <div className="hero-parent">
         <div className="mobile-hero-image">
           <div className="slide-one-title">
@@ -24,6 +26,11 @@ export default React.createClass({
             </div>
           </div>
         </div>
+      </div>
+      <div className="hero-down_arrow">
+        <MuiThemeProvider>
+          <Arrow style={{ color: "#fff", height: "50px", width: "50px", marginBottom: "18px" }} />
+        </MuiThemeProvider>
       </div>
       </div>
     )
