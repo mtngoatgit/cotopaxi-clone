@@ -10,27 +10,30 @@ export default React.createClass({
       <div className="hero-parent">
         <div className="mobile-hero-image">
           <div className="slide-one-title">
-            DO GOOD
+            the libre sweater
           </div>
           <div className="slide-one-subtitle">
-            Spend $100, get a DO GOOD Tee.
+            Insulator.
           </div>
-          <div className="slide-one-text">
-            <span style={{width: "100%"}}>Limited time offer. Cannot be combined with</span>
-            <span style={{width: "100%"}}>other offers. Excludes events.</span>
+          <div className="slide-one-subtitle">
+            Outer Layer.
+          </div>
+          <div className="slide-one-subtitle">
+            Epic Enabler.
           </div>
 
-          <div className="slide-one-shop_now">
-            <div className="slide-one-shop_now-inner">
-            Shop Now
+          <div className="slide-one-back_now">
+            <div className="slide-one-back_now-inner">
+            Back Now
             </div>
+          </div>
+
+          <div className="kickstarter-title">
+            KICKSTARTER
           </div>
         </div>
       </div>
       <div className="hero-down_arrow">
-        <MuiThemeProvider>
-          <Arrow style={{ color: "#fff", height: "50px", width: "50px", marginBottom: "18px" }} />
-        </MuiThemeProvider>
       </div>
       </div>
     )

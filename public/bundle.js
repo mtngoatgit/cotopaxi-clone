@@ -21549,47 +21549,40 @@
 	          _react2.default.createElement(
 	            'div',
 	            { className: 'slide-one-title' },
-	            'DO GOOD'
+	            'the libre sweater'
 	          ),
 	          _react2.default.createElement(
 	            'div',
 	            { className: 'slide-one-subtitle' },
-	            'Spend $100, get a DO GOOD Tee.'
+	            'Insulator.'
 	          ),
 	          _react2.default.createElement(
 	            'div',
-	            { className: 'slide-one-text' },
-	            _react2.default.createElement(
-	              'span',
-	              { style: { width: "100%" } },
-	              'Limited time offer. Cannot be combined with'
-	            ),
-	            _react2.default.createElement(
-	              'span',
-	              { style: { width: "100%" } },
-	              'other offers. Excludes events.'
-	            )
+	            { className: 'slide-one-subtitle' },
+	            'Outer Layer.'
 	          ),
 	          _react2.default.createElement(
 	            'div',
-	            { className: 'slide-one-shop_now' },
+	            { className: 'slide-one-subtitle' },
+	            'Epic Enabler.'
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'slide-one-back_now' },
 	            _react2.default.createElement(
 	              'div',
-	              { className: 'slide-one-shop_now-inner' },
-	              'Shop Now'
+	              { className: 'slide-one-back_now-inner' },
+	              'Back Now'
 	            )
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'kickstarter-title' },
+	            'KICKSTARTER'
 	          )
 	        )
 	      ),
-	      _react2.default.createElement(
-	        'div',
-	        { className: 'hero-down_arrow' },
-	        _react2.default.createElement(
-	          _MuiThemeProvider2.default,
-	          null,
-	          _react2.default.createElement(_keyboardArrowDown2.default, { style: { color: "#fff", height: "50px", width: "50px", marginBottom: "18px" } })
-	        )
-	      )
+	      _react2.default.createElement('div', { className: 'hero-down_arrow' })
 	    );
 	  }
 	});
@@ -29660,7 +29653,7 @@
 	
 	
 	// module
-	exports.push([module.id, ".hero-container {\n  overflow: hidden;\n  width: 100%;\n  height: 85vh;\n  background-image: url(" + __webpack_require__(343) + ");\n  background-size: cover;\n  background-position: center;\n  color: white;\n  font-family: \"Montserrat\", sans-serif;\n  display: table;\n  clear: both;\n  position: relative;\n  z-index: 0; }\n\n.hero-parent {\n  width: 100%;\n  display: table-cell;\n  vertical-align: middle; }\n\n.mobile-hero-image {\n  padding: 5%; }\n\n.slide-one-title {\n  font-size: 2.5em;\n  line-height: 1;\n  letter-spacing: 2.4px;\n  text-align: center; }\n\n.slide-one-subtitle {\n  font-size: 1.5em;\n  font-weight: 300;\n  line-height: 1.2;\n  text-align: center;\n  font-family: \"Raleway\", sans-serif;\n  font-weight: 100; }\n\n.slide-one-text {\n  font-size: 16px;\n  line-height: 1.6;\n  letter-spacing: 1px;\n  margin: 0 0 15px 0;\n  text-align: center;\n  font-family: \"Raleway\", sans-serif;\n  font-weight: 100;\n  display: flex;\n  flex-direction: column; }\n\n.slide-one-shop_now {\n  width: 100%;\n  margin-top: 60px;\n  padding-bottom: 40px;\n  display: flex;\n  justify-content: center; }\n\n.slide-one-shop_now-inner {\n  font-size: 0.75em;\n  padding-bottom: 7px;\n  width: 70px;\n  border-bottom: 1px solid white; }\n\n.hero-down_arrow {\n  width: 100%;\n  position: absolute;\n  bottom: 25px;\n  display: flex;\n  justify-content: center; }\n\n.get-20-container {\n  position: fixed;\n  bottom: 7px;\n  left: 7px;\n  background-color: #3f414c;\n  font-size: 18px;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 600;\n  color: white;\n  padding: 13px 25px;\n  z-index: 0; }\n", ""]);
+	exports.push([module.id, ".hero-container {\n  overflow: hidden;\n  width: 100%;\n  height: 85vh;\n  background-image: url(" + __webpack_require__(343) + ");\n  background-size: cover;\n  background-position: center;\n  color: white;\n  display: table;\n  clear: both;\n  position: relative;\n  z-index: 0; }\n\n.hero-parent {\n  width: 100%;\n  display: table-cell;\n  vertical-align: middle; }\n\n.mobile-hero-image {\n  padding: 5%; }\n\n.slide-one-title {\n  font-size: 2.5em;\n  font-family: \"Montserrat\", sans-serif;\n  font-weight: 400;\n  line-height: 1;\n  text-align: center;\n  text-transform: uppercase; }\n\n.slide-one-subtitle {\n  font-size: 1.5em;\n  font-weight: 300;\n  line-height: 1.2;\n  text-align: center;\n  font-family: \"Raleway\", sans-serif;\n  font-weight: 100; }\n\n.slide-one-text {\n  font-size: 16px;\n  line-height: 1.6;\n  letter-spacing: 1px;\n  margin: 0 0 15px 0;\n  text-align: center;\n  font-family: \"Raleway\", sans-serif;\n  font-weight: 100;\n  display: flex;\n  flex-direction: column; }\n\n.slide-one-back_now {\n  width: 100%;\n  margin-top: 28px;\n  padding-bottom: 28px;\n  display: flex;\n  justify-content: center;\n  text-transform: uppercase;\n  font-weight: 400;\n  letter-spacing: 1px;\n  font-family: \"Roboto Condensed\", sans-serif; }\n\n.slide-one-back_now-inner {\n  font-size: 0.75em;\n  padding-bottom: 7px;\n  width: 70px;\n  border-bottom: 1px solid white; }\n\n.kickstarter-title {\n  font-family: 'Baruta Black', sans-serif;\n  width: 100%;\n  text-align: center;\n  font-size: 32px;\n  margin-bottom: 41px; }\n\n.hero-down_arrow {\n  position: absolute;\n  bottom: 25px;\n  background: url(" + __webpack_require__(498) + ") top no-repeat;\n  height: 34px;\n  width: 28px;\n  left: 50%;\n  -ms-transform: translateX(-50%);\n  -webkit-transform: translateX(-50%);\n  transform: translateX(-50%); }\n\n.get-20-container {\n  position: fixed;\n  bottom: 7px;\n  left: 7px;\n  background-color: #3f414c;\n  font-size: 18px;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 600;\n  color: white;\n  padding: 9px 25px;\n  z-index: 0; }\n", ""]);
 	
 	// exports
 
@@ -49063,6 +49056,14 @@
 	    );
 	  }
 	});
+
+/***/ },
+/* 496 */,
+/* 497 */,
+/* 498 */
+/***/ function(module, exports) {
+
+	module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAAAiCAQAAABBqcc5AAAAjUlEQVR4Ac3OORXAMBQEMSPJicT8YRiD6837GJRruunUflHWjFQzvb1YemaqkbX2dAYQzlY5wwnOcIIznOAMJzjDCc5wgjOc4AwnOMMJznCCM5zgDCc4wwjAAAIEDCcwwwnMcAIznMAMJzDDCcxwAjOcwAwnMMMJzHACM+IEZzjBGZUTnOEEZzjBGU64AMZ+ba8E3Y3zAAAAAElFTkSuQmCC"
 
 /***/ }
 /******/ ]);
