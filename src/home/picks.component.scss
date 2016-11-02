@@ -1,7 +1,11 @@
 @import 'home.variables';
 
+* {
+  min-height: 0;
+  min-width: 0;
+}
 .top-picks-container {
-  width: 100%;
+  width: 320px;
 }
 .top-picks-title {
   color: $darkGrey;
@@ -15,9 +19,21 @@
   margin-top: 25px;
 }
 .slider {
-  width: 100%;
+  width: 20px;
   height: 74vh;
 }
-.luzon-carousel {
-  width: 100px;
+.slider img {
+  width: 40px;
+}
+.slide-title {
+  font-family: $rale;
+  font-weight: 100;
+  font-size: 20px;
+  color: $mediumGrey;
+}
+.slide-subtitle {
+  font-family: $robotThin;
+  color: $mediumGrey;
+  font-size: 14px;
+  font-style: italic;
 }
