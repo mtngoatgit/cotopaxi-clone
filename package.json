@@ -32,8 +32,10 @@
     "react-burger-menu": "^1.10.8",
     "react-dom": "^15.3.2",
     "react-router": "^2.8.1",
+    "react-slick": "^0.14.5",
     "react-tap-event-plugin": "^1.0.0",
     "sass-loader": "^4.0.2",
+    "slick-carousel": "^1.6.0",
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
     "webpack": "^1.13.2"
