@@ -29997,12 +29997,13 @@
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	var Slider = __webpack_require__(504);
-	__webpack_require__(499);
-	__webpack_require__(502);
 	
-	var styles = {
-	  width: "100%"
-	};
+	// const styles={
+	//   width: "320px",
+	//   image: {
+	//     width: '80px'
+	//   }
+	// }
 	
 	exports.default = _react2.default.createClass({
 	  displayName: 'TopPicks',
@@ -30028,7 +30029,7 @@
 	        _extends({}, settings, { className: 'slider' }),
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'slide-one' },
+	          { className: 'slide' },
 	          _react2.default.createElement('img', { src: '../../public/assets/images/luzon-18L.jpg' }),
 	          _react2.default.createElement(
 	            'div',
@@ -30043,7 +30044,7 @@
 	        ),
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'slide-two' },
+	          { className: 'slide' },
 	          _react2.default.createElement('img', { src: '../../public/assets/images/kusa.jpg' }),
 	          _react2.default.createElement(
 	            'div',
@@ -30059,7 +30060,7 @@
 	        ),
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'slide-three' },
+	          { className: 'slide' },
 	          _react2.default.createElement('img', { src: '../../public/assets/images/roca.jpg' }),
 	          _react2.default.createElement(
 	            'div',
@@ -30075,7 +30076,7 @@
 	        ),
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'slide-four' },
+	          { className: 'slide' },
 	          _react2.default.createElement('img', { src: '../../public/assets/images/fuego.jpg' }),
 	          _react2.default.createElement(
 	            'div',
@@ -49195,7 +49196,7 @@
 	
 	
 	// module
-	exports.push([module.id, "* {\n  min-height: 0;\n  min-width: 0; }\n\n.top-picks-container {\n  width: 320px; }\n\n.top-picks-title {\n  color: #3f414c;\n  font-family: \"Roboto Condensed\", sans-serif;\n  font-size: 20px;\n  font-weight: 400;\n  letter-spacing: 1px;\n  text-transform: uppercase;\n  text-align: center;\n  width: 100%;\n  margin-top: 25px; }\n\n.slider {\n  width: 20px;\n  height: 74vh; }\n\n.slider img {\n  width: 40px; }\n\n.slide-title {\n  font-family: \"Raleway\", sans-serif;\n  font-weight: 100;\n  font-size: 20px;\n  color: #bcbcbc; }\n\n.slide-subtitle {\n  font-family: \"Roboto Condensed\", sans-serif;\n  color: #bcbcbc;\n  font-size: 14px;\n  font-style: italic; }\n", ""]);
+	exports.push([module.id, "* {\n  min-height: 0;\n  min-width: 0; }\n\n.top-picks-container {\n  width: 100% !important; }\n\n.top-picks-title {\n  color: #3f414c;\n  font-family: \"Roboto Condensed\", sans-serif;\n  font-size: 20px;\n  font-weight: 400;\n  letter-spacing: 1px;\n  text-transform: uppercase;\n  text-align: center;\n  width: 100%;\n  margin-top: 25px; }\n\n.large-pad {\n  height: 40px;\n  width: 100%; }\n\n.slider {\n  max-width: 10px;\n  height: 74vh; }\n\n.slide {\n  width: 100%; }\n\n.slider img {\n  width: 300px;\n  height: 500px; }\n\n.slide-title {\n  font-family: \"Raleway\", sans-serif;\n  font-weight: 100;\n  font-size: 20px;\n  color: #bcbcbc; }\n\n.slide-subtitle {\n  font-family: \"Roboto Condensed\", sans-serif;\n  color: #bcbcbc;\n  font-size: 14px;\n  font-style: italic; }\n", ""]);
 	
 	// exports
 
